@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; } /*end of reset.css*/  
+/* for great colors go to https://kuler.adobe.com/explore/most-popular/?time=month */
+.grid_1{ 
+	width:95%; 
+} 
+.grid_2{ 
+	width:85%; 
+} 
+.grid_3{ 
+	width:75%; 
+} 
+.grid_4{ 
+	width:65%; 
+} 
+.grid_5{ 
+	width:55%; 
+} 
+.grid_6{ 
+	width:50%; 
+} 
+.grid_7{  
+	width:40%; 
+} 
+.grid_8{ 
+	width:25%; 
+} 
+.grid_9{  
+	width:12.5%; 
+}
+.grid_10{
+	width:66.6%;
+}
+.grid_11{
+	width:33.3%;
+}
+/*end of grid*/
+h1, h2, h3, h4, h5, h6{ 
+	margin:0 auto; 
+	padding:0 auto; 
+} 
+.container{ 
+	max-width:80%; 
+	margin:3em; 
+	font-family:put something here; 
+}  
+.title{ 
+	font-size: 3em; 
+	color:#333333;  
+} 
+.subtitle{ 
+	font-size:2em; 
+	color:#d3d3d3; 
+}  
+.img-round{ 
+	border-radius:50%; 
+} 
+.img-frame{ 
+	border:2px solid #ffffff; 
+}  
+a{ 
+	text-decoration:none; 
+} 
+.nav{ 
+	width:100%; 
+	padding:15px;
+	background-color:#d3d3d3;
+	box-shadow:1px 2px 2px 0px #333333;  
+} 
+.nav ul{
+	display:inline-block;
+}
+.nav-fixed{ 
+position:fixed; 
+margin-bottom:3em;/* in order to not overlap the title*/  
+}  
+.nav ul li{ 
+	margin-right:20px; 
+	float:left;
+}  
+.nav ul a{ 
+	text-decoration:none; 
+}
+p,
+h1,h2,h3,h4,h5,h6{
+	margin:10px;
+	color:#333333;
+}
+.grid_1-box,
+.grid_2-box,
+.grid_3-box,
+.grid_4-box,
+.grid_5-box,
+.grid_6-box,
+.grid_7-box,
+.grid_8-box,
+.grid_9-box{
+	padding:10px;
+	background-color:#d3d3d3;
+	border:1px solid #d3d3d3;
+	border-radius:2px;
+}
+button:hover{
+	cursor:pointer;
+}
+.button-rounded{
+	border-radius:5px;
+	padding:6px 13px;
+	background-color:#dddddd;
+	border-top:1px solid #dddddd;
+	border-left:1px solid #dddddd;
+	border-right:1px solid #dddddd;
+}
+.button-rounded:hover{
+	background-color:#d3d3d3;
+}
+.button-rounded_pos{
+	border-radius:5px;
+	padding:6px 13px;
+	background-color:#2ecc71;
+	border-top:1px solid #2ecc71;
+	border-left:1px solid #2ecc71;
+	border-right:1px solid #2ecc71;
+}
+.button-rounded_pos:hover{
+	background-color:#27ae60;
+}
+.button-rounded_neg{
+	border-radius:5px;
+	padding:6px 13px;
+	background-color:#e74c3c;
+	border-top:1px solid #e74c3c;
+	border-left:1px solid #e74c3c;
+	border-right:1px solid #e74c3c;
+}
+.button-rounded_neg:hover{
+	background-color:#c0392b;
+}
+.button-rounded_colorful{
+	border-radius:5px;
+	padding:6px 13px;
+	background-color:#8e44ad;
+	border-top:1px solid #8e44ad;
+	border-left:1px solid #8e44ad;
+	border-right:1px solid #8e44ad;
+}
+.button-rounded_colorful:hover{
+	background-color:#9b59b6;
+}
