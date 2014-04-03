@@ -9,6 +9,7 @@ th[colspan="2"]{
   min-height:300px;
   background: #f9f9f9;
   padding: 20px;
+  margin-bottom:10px !important;
 }
 table{
   margin:0 auto;

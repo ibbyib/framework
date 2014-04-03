@@ -12,4 +12,4 @@ We're trying to make a good looking CSS reset, to make your life easier and much
 | .half, .one-third, etc    | Responsive, use in addition to .column |
 
 ##Demo
-[Click here](https://rawgithub.com/ibbyib/framework/master/demo.html) to check out our progress.
+[Click here](https://rawgithub.com/ibbyib/framework/master/demo.html) to check out our progress. Remember that this is more of a starting template, you're supposed to apply own styling to it, but you may do whatever you want.

@@ -274,6 +274,20 @@ tbody tr:nth-child(odd) {background: #FFF}
 table.nostyle tr:nth-child(even) {background:transparent !important;}
 table.nostyle tr:nth-child(odd) {background:transparent !important;}
 /*
+Form elements
+*/
+input{padding:5px;font-family:"Open Sans", sans-serif, helvetica, arial;font-size:16px;}
+input[type="submit"]{
+	padding:5px 10px 5px 10px;
+	color:#333;
+	cursor:pointer;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], input[type="submit"]{
+	border:2px solid #999;
+	background:transparent;
+	outline:none;
+}
+/*
 Buttons
 */
 .btn{
