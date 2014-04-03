@@ -11,3 +11,6 @@ We're trying to make a good looking CSS reset, to make your life easier and much
 | .container                | Centered responsive container          |
 | .column                   | Container                              |
 | .half, .one-third, etc    | Responsive, use in addition to .column |
+
+##Demo
+[Click here](https://rawgithub.com/ibbyib/framework/master/demo.html) to check out our progress.
