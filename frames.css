@@ -269,6 +269,8 @@ tfoot td{color:#888;font-style:italic;}
 table.nostyle tr{border:0;}
 table.nostyle tr:last-child{border-bottom:0;}
 table-nostyle td{color:#333;font-style:normal;}
+tbody tr:nth-child(even) {background: #FFF}
+tbody tr:nth-child(odd) {background: #F9F9F9}
 /*
 Buttons
 */
