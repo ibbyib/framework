@@ -1,31 +1,32 @@
-/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; } /*end of reset.css*/  
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; } /*end of reset.css*/
 /* for great colors go to https://kuler.adobe.com/explore/most-popular/?time=month */
-.grid_1{ 
-	width:95%; 
-} 
-.grid_2{ 
-	width:85%; 
-} 
-.grid_3{ 
-	width:75%; 
-} 
-.grid_4{ 
-	width:65%; 
-} 
-.grid_5{ 
-	width:55%; 
-} 
-.grid_6{ 
-	width:50%; 
-} 
-.grid_7{  
-	width:40%; 
-} 
-.grid_8{ 
-	width:25%; 
-} 
-.grid_9{  
-	width:12.5%; 
+*{box-sizing:border-box;}
+.grid_1{
+	width:95%;
+}
+.grid_2{
+	width:85%;
+}
+.grid_3, .three-forths{
+	width:75%;
+}
+.grid_4{
+	width:65%;
+}
+.grid_5{
+	width:55%;
+}
+.grid_6, .half{
+	width:50%;
+}
+.grid_7{
+	width:40%;
+}
+.grid_8{
+	width:25%;
+}
+.grid_9{
+	width:12.5%;
 }
 .grid_10{
 	width:66.6%;
@@ -33,53 +34,113 @@
 .grid_11{
 	width:33.3%;
 }
+.column.full {
+  width: 100%;
+}
+.column.two-thirds {
+  width: 65%;
+}
+.column.half {
+  width: 47.5%;
+}
+.column.one-third {
+  width: 30%;
+}
+.column.one-fourth {
+  width: 21.25%;
+}
+.column {
+  float: left;
+  margin-left: 2%;
+}
+.column:first-child {
+  margin-left: 0 !important;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 640px) {
+  .column.full,
+  .column.two-thirds,
+  .column.half,
+  .column.one-third,
+  .column.one-fourth {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+}
 /*end of grid*/
-h1, h2, h3, h4, h5, h6{ 
-	margin:0 auto; 
-	padding:0 auto; 
-} 
-.container{ 
-	max-width:80%; 
-	margin:3em; 
-	font-family:put something here; 
-}  
-.title{ 
-	font-size: 3em; 
-	color:#333333;  
-} 
-.subtitle{ 
-	font-size:2em; 
-	color:#d3d3d3; 
-}  
-.img-round{ 
-	border-radius:50%; 
-} 
-.img-frame{ 
-	border:2px solid #ffffff; 
-}  
-a{ 
-	text-decoration:none; 
-} 
-.nav{ 
-	width:100%; 
+h1, h2, h3, h4, h5, h6{
+	margin:0 auto;
+	padding:0 auto;
+}
+strong, b, th, h5{
+	font-weight:700;
+}
+.container{
+	width: 90%;
+  max-width: 960px;
+	margin: 0 auto;
+	font-family:sans-serif, helvetica, arial;
+}
+.title{
+	font-size: 3em;
+	color:#333333;
+}
+.subtitle{
+	font-size:2em;
+	color:#d3d3d3;
+}
+.img-round{
+	border-radius:50%;
+}
+.img-frame{
+	border:2px solid #ffffff;
+}
+p{
+	line-height:1.5em;
+}
+a{
+	color:#6495ca;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.quote{
+	padding:10px 10px 10px 20px;
+	border-left:5px solid #666;
+	background:#F1F1f1;
+	font-style:italic;
+}
+.nav{
+	width:100%;
 	padding:15px;
 	background-color:#d3d3d3;
-	box-shadow:1px 2px 2px 0px #333333;  
-} 
+	box-shadow:1px 2px 2px 0px #333333;
+}
 .nav ul{
 	display:inline-block;
 }
-.nav-fixed{ 
-position:fixed; 
-margin-bottom:3em;/* in order to not overlap the title*/  
-}  
-.nav ul li{ 
-	margin-right:20px; 
-	float:left;
-}  
-.nav ul a{ 
-	text-decoration:none; 
+.nav-fixed{
+position:fixed;
+margin-bottom:3em;/* in order to not overlap the title*/
 }
+.nav ul li{
+	margin-right:20px;
+	float:left;
+}
+.nav ul a{
+	text-decoration:none;
+}
+h1{font-size:64px;}
+h2{font-size:52px;}
+h3{font-size:36px;}
+h4{font-size:24px;}
+h5{font-size:18px;}
 p,
 h1,h2,h3,h4,h5,h6{
 	margin:10px;
@@ -146,3 +207,15 @@ button:hover{
 .button-rounded_colorful:hover{
 	background-color:#9b59b6;
 }
+/*
+Table
+*/
+table{}
+tr{}
+td, th{padding:5px;}
+thead tr:last-child{border-bottom:1px solid #aaa;}
+tbody tr{border-bottom:1px solid #ddd;}
+tfoot td{color:#888;font-style:italic;}
+table.nostyle tr{border:0;}
+table.nostyle tr:last-child{border-bottom:0;}
+table-nostyle td{color:#333;font-style:normal;}
