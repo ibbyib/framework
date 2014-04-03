@@ -13,3 +13,12 @@ th[colspan="2"]{
 table{
   margin:0 auto;
 }
+.logo-demo{
+  font-size:64px;
+  text-align:center;
+  margin-top:30px;
+  font-weight:300;
+  background:rgba(207, 52, 52, 0.74);
+  color:#fff;
+  padding:20px;
+}
