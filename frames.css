@@ -357,3 +357,16 @@ Buttons
 .filr:hover:after, .filrb:hover:after{
 	height:100%;
 }
+.card{
+	border:1px solid #dddddd;
+	padding:1em;
+	background-color:#ffffff;
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
+}
+.card_rounded{
+	border:1px solid #dddddd;
+	padding:1em;
+	background-color:#ffffff;
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
+	border-radius:6px;
+}
