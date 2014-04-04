@@ -64,3 +64,33 @@ table{
 	margin:3em;
 	width:50%;
 }
+#ppmsg{
+  margin:30px;
+  padding:10px;
+  width:325px;
+  background:#f9f9f9;
+  z-index:-3;
+  border:1px solid #aaa;
+  border-radius:5px;
+}
+#searx{
+  width:325px;
+  margin:10px;
+}
+#searchex{
+  padding:15px;
+}
+#ppmsg header{
+  margin:-10px -10px 10px -10px;
+  background:#EEE;
+  padding:20px;
+  position:relative;
+  border-bottom:1px solid #aaa;
+}
+#ppmsg header span{
+  position:absolute;
+  top:20px;
+  right:20px;
+  font-weight:bold;
+  color:#777;
+}
