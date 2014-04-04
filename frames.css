@@ -365,6 +365,7 @@ Buttons
 	margin:3em;
 	width:50%;
 	float:left;
+	margin-right:0px;
 }
 .card_2{
 	border:1px solid #dddddd;
