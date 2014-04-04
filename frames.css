@@ -364,9 +364,6 @@ Buttons
 	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
 	margin:3em;
 	width:50%;
-	float:left;
-	margin-right:0px;
-	/*Remember to change this*/
 }
 .card_2{
 	border:1px solid #dddddd;
@@ -374,10 +371,7 @@ Buttons
 	background-color:#ffffff;
 	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
 	width:30%;
-	float:right;
-	margin-left:4px;
-	margin-right:3px;
-	/*same with this*/
+	margin:3em;
 }
 .card_rounded{
 	border:1px solid #dddddd;
