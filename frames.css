@@ -366,6 +366,7 @@ Buttons
 	width:50%;
 	float:left;
 	margin-right:0px;
+	/*Remember to change this*/
 }
 .card_2{
 	border:1px solid #dddddd;
@@ -375,6 +376,8 @@ Buttons
 	margin:3em;
 	width:35%;
 	float:right;
+	margin-left:4px;
+	/*same with this*/
 }
 .card_rounded{
 	border:1px solid #dddddd;
