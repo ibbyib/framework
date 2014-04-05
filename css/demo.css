@@ -1,0 +1,96 @@
+/* Only for the demo page */
+.container{
+  margin-bottom:50px;
+}
+th[colspan="2"]{
+  font-size:24px;
+}
+.column{
+  min-height:300px;
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom:10px !important;
+}
+table{
+  margin:0 auto;
+}
+.logo-demo{
+  font-size:64px;
+  text-align:center;
+  margin-top:30px;
+  font-weight:300;
+  background:rgba(207, 52, 52, 0.74);
+  color:#fff;
+  padding:20px;
+}
+.subt{
+  font-size:12px;
+  color:#666;
+  text-align:center;
+}/**/
+#popupbox{
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  background:rgba(255, 255, 255, 0.62);
+  font-size:23px;
+  padding:10px;
+  display:none;
+}
+.card{
+	border:1px solid #dddddd;
+	padding:1em;
+	background-color:#ffffff;
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
+	margin:3em;
+	width:50%;
+	float:left;
+}
+.card_2{
+	border:1px solid #dddddd;
+	padding:1em;
+	background-color:#ffffff;
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
+	margin:3em;
+	width:40%;
+	float:right;
+}
+.card_rounded{
+	border:1px solid #dddddd;
+	padding:1em;
+	background-color:#ffffff;
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
+	border-radius:6px;
+	margin:3em;
+	width:50%;
+}
+#ppmsg{
+  margin:30px;
+  padding:10px;
+  width:325px;
+  background:#f9f9f9;
+  z-index:-3;
+  border:1px solid #aaa;
+  border-radius:5px;
+}
+#searx{
+  width:325px;
+  margin:10px;
+}
+#searchex{
+  padding:15px;
+}
+#ppmsg header{
+  margin:-10px -10px 10px -10px;
+  background:#EEE;
+  padding:20px;
+  position:relative;
+  border-bottom:1px solid #aaa;
+}
+#ppmsg header span{
+  position:absolute;
+  top:20px;
+  right:20px;
+  font-weight:bold;
+  color:#777;
+}
