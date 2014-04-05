@@ -49,6 +49,17 @@ body{font-family:"Open-Sans", sans-serif, helvetica, arial;}
 	margin: 0 auto;
 	font-family:"Open Sans", sans-serif, helvetica, arial;
 }
+.fixedheader{
+	position:fixed;
+	padding:10px;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	background:rgba(207, 52, 52, 0.77);
+	top:0;
+	left:0;
+	right:0;
+}
 /*
 	== IMAGE ==
 */
