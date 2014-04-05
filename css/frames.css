@@ -53,7 +53,8 @@ body{font-family:"Open-Sans", sans-serif, helvetica, arial;}
 	position:fixed;
 	padding:10px;
 	font-size:18px;
-	font-weight:bold;
+	font-weight:300;
+	color:#fff;
 	text-align:center;
 	background:rgba(207, 52, 52, 0.77);
 	top:0;
