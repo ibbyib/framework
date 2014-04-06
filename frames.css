@@ -399,5 +399,18 @@ Buttons
 	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
 	border-radius:6px;
 	margin:3em;
-	width:50%;
+	width:50;
+}
+.footer_flat{
+	border-top:1px solid #dddddd;
+	text-align:center;
+	color:#ffffff;
+	background-color:#d3d3d3;
+}
+.nav_medi{
+	width:70%;
+	position:fixed;
+}
+.nav_medi li{
+	padding-left:6px;
 }
