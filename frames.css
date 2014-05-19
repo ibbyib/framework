@@ -381,8 +381,8 @@ Buttons
 	padding:1em;
 	background-color:#ffffff;
 	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
-	margin:3em;
-	width:50%;
+	margin-left:1%;
+	width:30%;
 }
 .card_2{
 	border:1px solid #dddddd;
