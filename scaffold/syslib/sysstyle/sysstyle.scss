@@ -77,6 +77,15 @@ body{
 		top:0;
 		height: 3rem;
 		z-index: 50em;
+
+		.logoNav{
+			position: relative;
+			float: left;
+			height: 100%;
+			margin-bottom: 2.5%;
+			width: 175px;
+			background-color: red;
+		}
 	}
 }
 

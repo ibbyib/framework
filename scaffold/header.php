@@ -5,7 +5,7 @@
 	<meta name="description" content="   ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Framework Demo</title>
-  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/javvy.js"></script>
   <link rel="stylesheet" href="syslib/sysstyle/sysstyle.min.css" />
   <!--[if lt IE 9]>
@@ -15,5 +15,6 @@
 </head>
 <body>
   <div class="navBar">
+    <div class="logoNav"></div>
     Work in progress!!
   </div>

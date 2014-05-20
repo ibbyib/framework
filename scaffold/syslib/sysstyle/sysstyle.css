@@ -47,7 +47,14 @@ body {
     background-color: #353535;
     top: 0;
     height: 3rem;
-    z-index: 50em; } }
+    z-index: 50em; }
+    .navBar .logoNav {
+      position: relative;
+      float: left;
+      height: 100%;
+      margin-bottom: 2.5%;
+      width: 175px;
+      background-color: red; } }
 @media (min-width: 481px) {
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
 @media (min-width: 641px) {
