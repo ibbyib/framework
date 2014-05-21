@@ -19,49 +19,49 @@
   <div class="container">
     <h2><strong>Example #1</strong> - Forms &amp; Tables</h2>
     <div class="row">
-    <div class="column half">
-    <table>
-      <thead>
-        <tr>
-            <th colspan="2">Name Database</th>
-        </tr>
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-            <td>James</td>
-            <td>Smith</td>
-        </tr>
-        <tr>
+      <div class="column half">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Name Database</th>
+            </tr>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>James</td>
+              <td>Smith</td>
+            </tr>
+          <tr>
             <td>Bill</td>
             <td>Washington</td>
-        </tr>
-        <tr>
-            <td>Jim</td>
-            <td>Anon</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
+              <td>Jim</td>
+              <td>Anon</td>
+          </tr>
+          <tr>
             <td>Bobby</td>
             <td>N/A</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Jacob</td>
             <td>Fischer</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>Miley</td>
             <td>Smith</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
             <td colspan="2">All names are random</td>
-        </tr>
-      </tfoot>
-    </table>
+          </tr>
+        </tfoot>
+      </table>
     </div>
     <div class="column half">
       <form action="#">
@@ -71,18 +71,18 @@
             <td><input type="text" name="username" /></td>
           </tr>
           <tr>
-            <td><label for="password">Password</label></td>
-            <td><input type="password" name="password" /></td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <input type="submit" value="Log in" />
-            </td>
-          </tr>
-        </table>
-      </form>
+              <td><label for="password">Password</label></td>
+              <td><input type="password" name="password" /></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="submit" value="Log in" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
     </div>
-  </div>
   </div>
   <div class="container">
     <h2><strong>Example #2</strong> - Blog post</h2>

@@ -15,5 +15,6 @@
 </head>
 <body>
   <div class="navBar">
+    <div class="logoNav"></div>
     Work in progress!!
   </div>
